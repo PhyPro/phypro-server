@@ -1,0 +1,34 @@
+{
+  "name": "phypro-server",
+  "version": "0.1.0",
+  "description": "Full stack server for PhyPro",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p public; node_modules/.bin/browserify src/index.js -o public/app.js; node_modules/.bin/browserify src/splash.js -o public/splashApp.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhyPro/phypro-server.git"
+  },
+  "keywords": [
+    "bioinformatics",
+    "phypro"
+  ],
+  "author": "Davi Ortega",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PhyPro/phypro-server/issues"
+  },
+  "homepage": "https://github.com/PhyPro/phypro-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.1.2",
+    "browserify": "^16.2.2",
+    "clipboard": "^2.0.1",
+    "d3": "^5.5.0",
+    "express": "^4.16.3",
+    "multer": "^1.3.1",
+    "pug": "^2.0.3"
+  }
+}

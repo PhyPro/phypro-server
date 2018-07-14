@@ -1,0 +1,129 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    background: black;
+    overflow-x: hidden;
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.tooltip {
+  position: absolute;
+  font: 120px sans-serif;
+  background: rgba(0,0,0,0.7);
+  color:white;
+}
+
+.tooltipy {
+  position: absolute;
+  font: 20px sans-serif;
+  background: rgba(0,0,0,0.7);
+  color:white;
+}
+
+#site { overflow-x: hidden; }
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:left;
+    padding:10px;
+}
+
+#graph {
+    background-color:black;
+    color:white;
+    text-align:left;
+    padding:10px;
+    width :100%;
+}
+#profile {
+    background-color:black;
+    color:white;
+    text-align:left;
+    width :100%;
+}
+
+#info {
+    line-height:30px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#controls {
+    height:250px;
+    width:100px;
+    color:white;
+    background: none;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.slider {
+    margin-top: 5px;
+}
+
+.centered {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box {
+    background: black;
+}
+
+.node {
+  stroke: #000000;
+  stroke-width: 0.5px;
+}
+
+.link {
+  fill: none;
+  stroke: #999;
+  stroke-opacity: 0.3;
+  z
+}
+
+.newlink {
+  fill: none;
+  stroke: rebeccapurple;
+  stroke-opacity: 1;
+}
+
+
+.branch {
+    fill: none;
+    stroke: white;
+    stroke-width: 1px
+}
+.main { background-color: #000000; }
+.dropdown { background-color: #000000; }
+.dropdown-menu { 
+    background-color: #000000;
+}
+.btn-group { background-color: #000000; }
+.btn { 
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+circle {
+    cursor: pointer;
+}

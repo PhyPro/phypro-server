@@ -1,0 +1,20 @@
+doctype html
+html(lang='en')
+	head
+		title PhyPro
+		link(href='node_modules/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
+		link(href='assets/style.css', rel="stylesheet", type='text/css')
+
+	body
+		script(src='public/index.js')
+		.main
+			#header
+				img(src='assets/PhyProHeader-03.png')
+			.controls(data-spy="affix", data-offset-top=70, display)
+				.btn-group#main-tools
+				.btn-group#main-controls
+			.application
+				#profile
+		script.
+			console.log(data)
+			buildEnvironment(data)

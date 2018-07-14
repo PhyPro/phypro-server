@@ -1,0 +1,15 @@
+doctype html
+html(lang='en')
+	head
+		title PhyPro
+		link(href='node_modules/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
+		link(href='assets/style.css', rel="stylesheet", type='text/css')
+
+	body
+		script(src='public/splashApp.js')
+		.container.logo
+			img(src='assets/images/PhyProLogo.png', class="img-fluid mx-auto d-block")
+		.container
+			.row
+				button.btn-primary.btn.splash.mx-auto PhyPro data
+				button.btn-primary.btn.splash.mx-auto(onClick='loadConfig()') Load demo

@@ -1,0 +1,29 @@
+body {
+    background: black
+}
+
+.splash button {
+    display: block
+}
+
+.logo img {
+    padding: 10vw;
+    padding-bottom: 50px;
+}
+
+.btn-primary {
+    background-color: #8934FF;
+    border-color: #8934FF;
+}
+
+#header img {
+    height: 60px;
+}
+
+.controls {
+    display: inline-block;
+}
+
+.application {
+    padding-top: 100px;
+}
