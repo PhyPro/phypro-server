@@ -2,6 +2,10 @@ body {
     background: black
 }
 
+.main {
+    display: none;
+}
+
 .splash button {
     display: block
 }

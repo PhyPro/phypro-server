@@ -4,7 +4,7 @@
   "description": "Full stack server for PhyPro",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p public; node_modules/.bin/browserify src/index.js -o public/app.js; node_modules/.bin/browserify src/splash.js -o public/splashApp.js",
+    "build": "mkdir -p public; node_modules/.bin/browserify src/index.js -o public/app.js",
     "start": "node server.js"
   },
   "repository": {

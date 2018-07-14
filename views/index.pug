@@ -6,7 +6,15 @@ html(lang='en')
 		link(href='assets/style.css', rel="stylesheet", type='text/css')
 
 	body
-		script(src='public/index.js')
+		script(src='public/app.js')
+		.splash
+			.container.logo
+				img(src='assets/images/PhyProLogo.png', class="img-fluid mx-auto d-block")
+			.container
+				.row
+					label.btn.btn-primary.splash.mx-auto(id="fileFormLabel", for="jsonUpload") Upload PhyPro Data
+						input(type='file', id='jsonUpload', style='display: none', onChange='loadConfig(this)')
+					button.btn-primary.btn.splash.mx-auto(onClick='loadConfig()') Load demo
 		.main
 			#header
 				img(src='assets/PhyProHeader-03.png')
@@ -15,6 +23,3 @@ html(lang='en')
 				.btn-group#main-controls
 			.application
 				#profile
-		script.
-			console.log(data)
-			buildEnvironment(data)
