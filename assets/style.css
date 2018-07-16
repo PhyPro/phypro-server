@@ -2,6 +2,11 @@ body {
     background: black
 }
 
+input {
+    background-color: black;
+    color: white;
+}
+
 .main {
     display: none;
 }
@@ -24,10 +29,17 @@ body {
     height: 60px;
 }
 
-.controls {
-    display: inline-block;
-}
-
 .application {
     padding-top: 100px;
 }
+
+.control {
+    background-color: #000000;
+}
+
+.link {
+    fill: none;
+    stroke: #999;
+    stroke-opacity: 0.1
+  }
+
